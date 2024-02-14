@@ -1,0 +1,19 @@
+{
+  "name": "8lines/sylius-notification-plugin-ovh-cloud-adapter",
+  "type": "sylius-notification-plugin-adapter",
+  "description": "Ovh Cloud adapter for Sylius Notification Plugin",
+  "keywords": ["sylius", "notification", "plugin", "adapter", "ovh", "cloud"],
+  "license": "MIT",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=8.0",
+    "symfony/ovh-cloud-notifier": "^6.0",
+    "8lines/sylius-notification-plugin": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EightLines\\SyliusNotificationPlugin\\NotificationChannel\\Symfony\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}
